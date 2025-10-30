@@ -22,7 +22,7 @@ def rle_compress(data: bytes) -> bytes:
         i = j
     return out
 
-print(f"Packing {len(frame_files)} frames ({W}x{H}) com RLE...")
+print(f"Packing {len(frame_files)} frames ({W}x{H}) with RLE...")
 
 out_path = "bad_apple.rle"
 out_bin = open(out_path, "wb")
